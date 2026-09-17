@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arman | Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                    <img src="images/logo2.png" alt="Arman Haider Logo">
+                </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="ArmanHaider.pdf" download class="nav-resume-btn">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-right-mobile">
+                <a href="ArmanHaider.pdf" download class="nav-resume-btn mobile-resume">
+                    <i class="fas fa-download"></i>
+                </a>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-chart-bar"></i> Data Analyst
+            </div>
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Arman</h1>
+            <h2 class="hero-title">
+                <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-description">
+                I analyze data, uncover meaningful patterns, and build dashboards
+                that turn complex information into clear business insights.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-chart-pie"></i> View My Work
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/Arman-haider" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sayed-arman-haider-zaidi-452354203/" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual">
+    <div class="analytics-card">
+
+        <div class="analytics-header">
+            <div>
+                <span class="analytics-label">DATA ANALYTICS</span>
+                <h3>Business Overview</h3>
+            </div>
+            <span class="analytics-icon">↗</span>
+        </div>
+
+        <div class="analytics-stats">
+
+            <div class="analytics-stat">
+                <span>Total Sales</span>
+                <strong>₹84.2K</strong>
+                <small>+18.4%</small>
+            </div>
+
+            <div class="analytics-stat">
+                <span>Orders</span>
+                <strong>2,486</strong>
+                <small>+12.7%</small>
+            </div>
+
+            <div class="analytics-stat">
+                <span>Customers</span>
+                <strong>1,842</strong>
+                <small>+9.3%</small>
+            </div>
+
+            <div class="analytics-stat">
+                <span>AOV</span>
+                <strong>₹338</strong>
+                <small>+6.8%</small>
+            </div>
+
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-title">
+                <span>Sales Trend</span>
+                <span>2026</span>
+            </div>
+
+            <div class="chart">
+                <div class="chart-bar" style="height: 38%;"></div>
+                <div class="chart-bar" style="height: 52%;"></div>
+                <div class="chart-bar" style="height: 45%;"></div>
+                <div class="chart-bar" style="height: 68%;"></div>
+                <div class="chart-bar" style="height: 60%;"></div>
+                <div class="chart-bar" style="height: 78%;"></div>
+                <div class="chart-bar" style="height: 88%;"></div>
+            </div>
+
+            <div class="chart-months">
+                <span>Jan</span>
+                <span>Feb</span>
+                <span>Mar</span>
+                <span>Apr</span>
+                <span>May</span>
+                <span>Jun</span>
+                <span>Jul</span>
+            </div>
+        </div>
+
+        <div class="analytics-footer">
+            <span>SQL</span>
+            <span>Python</span>
+            <span>Power BI</span>
+            <span>Excel</span>
+        </div>
+
+    </div>
+</div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="section section-alt about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Analytical thinker with a passion for data storytelling</p>
+            <div class="about-content">
+                <div class="about-cards-col">
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fas fa-database"></i></div>
+                        <h4>Education</h4>
+                        <p>B.Tech Computer Science</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Experience</h4>
+                        <p>3+ Years at Amazon</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h4>Projects</h4>
+                        <p>Real-world Data Analytics Projects</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm a Data Analyst with a B.Tech in Computer Science and 3+ years
+                        of professional experience at Amazon. I work with SQL, Python,
+                        Pandas, PostgreSQL, Power BI, and Excel to clean, analyze, and
+                        visualize data.
+                    </p>
+
+                    <p>
+                        My focus is on transforming raw data into clear insights,
+                        identifying patterns, and building interactive dashboards that
+                        support data-driven business decisions.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="counter" data-target="3">0</h3><span class="stat-plus">+</span>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter" data-target="3">0</h3><span class="stat-plus"></span>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter" data-target="3">0</h3><span class="stat-plus"></span>
+                            <p>Dashboards Built</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100k</h3><span class="stat-plus">+</span>
+                            <p>Rows Analyzed</p>
+                        </div>
+                    </div>
+                    <a href="ArmanHaider.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Toolkit</h2>
+            <p class="section-subtitle">Technologies & tools I use to deliver data insights</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon sql"><i class="fas fa-database"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h3>PostgreSQL</h3>
+
+                        </div>
+                        <p>SQL Queries, Joins, CTEs, Window Functions</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon python"><i class="fab fa-python"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h3>Python</h3>
+
+                        </div>
+                        <p>Data Cleaning, Pandas, NumPy, EDA</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon pandas"><i class="fas fa-table"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h3>Pandas</h3>
+                        </div>
+                        <p>DataFrames, GroupBy, Merge, Pivot Tables, Time Series, Data Cleaning</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon powerbi"><i class="fas fa-chart-pie"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h3>Power BI</h3>
+                            
+                        </div>
+                        <p>Data Modeling, DAX, Dashboards, Power Query</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon excel"><i class="fas fa-file-excel"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h3>Excel</h3>
+                        </div>
+                        <p>Lookup Functions, Pivot Tables, Data Cleaning</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon stats"><i class="fas fa-square-root-alt"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-header">
+                            <h3>Statistics</h3>
+                        </div>
+                        <p>Descriptive Statistics, Hypothesis Testing, Probability</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="section section-alt projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Real-world data analysis projects showcasing my expertise</p>
+            <!--  <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="sql">SQL</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="powerbi">Power BI</button>
+                <button class="filter-btn" data-filter="excel">Excel</button>
+            </div> -->
+            <div class="projects-grid">
+                <div class="project-card" data-category="powerbi python">
+
+                    <div class="project-image p1">
+
+                        <img src="images/Overview_Churn.png" alt="Superstore Sales Analysis Dashboard">
+
+                        <div class="project-overlay">
+
+
+
+                            <a href="https://github.com/Arman-haider/customer-churn-analysis" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>Customer Churn Analysis</h3>
+
+                        <p>
+                            Analyzed 7,043 telecom customers using PostgreSQL, Python, Pandas, and Power BI to identify
+                            churn patterns across contract type, tenure, internet service, payment method, and customer
+                            characteristics.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Power BI</span>
+                            <span>Excel</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="project-card" data-category="powerbi sql">
+
+                    <div class="project-image p1">
+
+                        <img src="images/Overview_Olist.png" alt="Olist Brazilian E-Commerce Analysis Dashboard">
+
+                        <div class="project-overlay">
+                            <a href="https://app.powerbi.com/view?r=..." class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+
+
+                            <a href="https://github.com/Arman-haider/olist-ecommerce-sales-analysis"
+                                class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>Olist Brazilian E-Commerce Analysis</h3>
+
+                        <p>
+                            Analyzed Brazilian e-commerce data using PostgreSQL and Power BI
+                            to understand sales performance, order fulfillment, delivery
+                            performance, customer behavior, and review patterns.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>PostgreSQL</span>
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>SQL</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="project-card" data-category="powerbi">
+
+                    <div class="project-image p3">
+
+                        <img src="images/Overview_YT.png" alt="YouTube Analytics Dashboard">
+
+                        <div class="project-overlay">
+
+
+                            <a href="https://github.com/Arman-haider/YouTube-Analytics-Overview" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>YouTube Analytics Dashboard</h3>
+
+                        <p>
+                            Built an interactive Power BI dashboard to analyze YouTube
+                            channel performance, including total views, video types,
+                            upload trends, and top-performing videos.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Data Analysis</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- 
+                <div class="project-card" data-category="excel">
+                    <div class="project-image p4">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Financial Reporting Automation</h3>
+                        <p>Automated monthly financial reports using Excel VBA and Power Query, saving 20+ hours per month of manual work.</p>
+                        <div class="project-tags">
+                            <span>Excel</span><span>VBA</span><span>Power Query</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="sql python">
+                    <div class="project-image p5">
+                        <i class="fas fa-store"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Analytics</h3>
+                        <p>Comprehensive analysis including cohort analysis, RFM segmentation, and funnel analysis to optimize conversion rates by 22%.</p>
+                        <div class="project-tags">
+                            <span>PostgreSQL</span><span>Python</span><span>Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="powerbi excel">
+                    <div class="project-image p6">
+                        <i class="fas fa-heartbeat"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>HR Analytics Dashboard</h3>
+                        <p>Power BI dashboard tracking employee attrition, satisfaction scores, and department-wise performance metrics.</p>
+                        <div class="project-tags">
+                            <span>Power BI</span><span>DAX</span><span>Excel</span>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Have a data project in mind? I'd love to collaborate!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's turn your data into insights</h3>
+                    <p>
+                    <p>
+                        Whether you need data analysis, dashboard development, SQL-based insights,
+                        or reporting solutions — feel free to reach out!
+                    </p>
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <a href="mailto:armanhaideri786@gmail.com">armanhaideri786@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <a href="https://www.linkedin.com/in/sayed-arman-haider-zaidi-452354203/"
+                                    target="_blank">
+                                    linkedin.com/in/Arman-Haider
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <strong>GitHub</strong>
+                                <a href="https://github.com/Arman-haider" target="_blank">
+                                    github.com/Arman-haider
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <a href="#home" class="logo">
+                    <img src="images/logo2.png" alt="Arman Haider Logo">
+                </a>
+
+                <p>© 2026 Arman Haider. All rights reserved.</p>
+
+                <div class="footer-socials">
+                    <a href="https://github.com/Arman-haider" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="YOUR_LINKEDIN_URL" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
